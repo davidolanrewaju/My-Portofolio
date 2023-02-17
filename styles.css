@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @media screen and (max-width: 375px) {
   body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: Poppins, sans-serif;
     font-size: 16px;
@@ -23,7 +23,7 @@
   }
 
   main {
-    padding: 15% 6%;
+    padding: 50px 24px 114px 24px;
     background-image: url("./assets/shape-background.png");
     background-repeat: no-repeat;
   }
@@ -52,5 +52,167 @@
     display: flex;
     align-items: center;
     gap: 20px;
+  }
+
+  #works {
+    padding: 114px 24px;
+    background-color: #e5e5e5;
+    background-image: none;
+  }
+
+  .display-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 88px;
+  }
+
+  .image-container img {
+    border-radius: 8px;
+  }
+
+  .text-container h1 {
+    margin: 0 auto;
+    color: #172b4d;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .inline-text {
+    margin: -5px auto;
+    padding: 0 auto;
+    display: grid;
+    grid-template-columns: 10% 70% 10%;
+    grid-gap: 2px;
+    align-content: center;
+  }
+
+  .inline-text h4 {
+    color: #344563;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .inline-list {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .inline-list li {
+    color: #7a869a;
+    font-size: 13px;
+    font-weight: 600;
+    list-style-type: disc;
+  }
+
+  p .body {
+    color: #344563;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .stack {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .stack li {
+    margin-top: 12px;
+    padding: 4px 12px;
+    text-decoration: none;
+    text-transform: lowercase;
+    list-style: none;
+    background: #ebebff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #6070ff;
+  }
+
+  button {
+    font-family: Poppins, sans-serif;
+    background-color: transparent;
+    padding: 12px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #396df2;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 28px 0 15px 0;
+  }
+
+  #about-myself {
+    background-image: none;
+    padding: 114px 24px 0 24px;
+  }
+
+  #skill-lists {
+    padding: 10px 24px 114px 24px;
+    background-image: none;
+  }
+
+  .skill-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .skill-list h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .arrow-down {
+    transform: rotate(90deg);
+    font-size: 25px;
+    color: #acb7c3;
+  }
+
+  .skill-stacks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .skill-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    padding: 12px 9px;
+    margin-bottom: 12px;
+  }
+
+  .skill-stack p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #253858;
+  }
+
+  .arrow-right {
+    transform: none;
+    font-size: 25px;
+    color: #acb7c3;
+  }
+
+  .bottom-border {
+    border-bottom: 1px solid #dfe1e6;
   }
 }
