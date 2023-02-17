@@ -50,11 +50,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio_Project_Setup:Mobile_First] <a name="about-project"></a>
+# 📖 [Portfolio Project Setup: Mobile First] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Portfolio_Project_Setup:Mobile_First]** is a project that aids micronauts in building a portfolio worth showcasing as professionals while learning how to use linters and github flows professionally
+**[Portfolio Project Setup: Mobile First]** is a project that aids micronauts in building a portfolio worth showcasing as professionals while learning how to use linters and github flows professionally
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,10 +71,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Personal_Introduction]**
-<!-->- **[key_feature_2]**
+- **[Personal Introduction: this is to give my portfolio viewers a background information of what I do and who I am 😊]**
+<!-- - **[key_feature_2]**
 - **[key_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -151,8 +147,6 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Olanrewaju David**
 
 - GitHub: [@githubhandle](https://github.com/dave-prog)
@@ -164,9 +158,58 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[List_of_projects]**
 - [ ] **[Contact_form]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project hit the like button and also hit me up if you need a collaborator on any side projects you're working on.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank microverse for the resources provided to make this project easy to execute and my coding partner Mahou
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **[How did you set up your project?]**
+
+  - Installed all dependencies given by Microverse (stylelint, webhint, lighthouse)
+
+- **[How do I clone your report for use?]**
+
+  - [Open git bash and enter "git clone https://github.com/dave-prog/My-Portofolio"]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
