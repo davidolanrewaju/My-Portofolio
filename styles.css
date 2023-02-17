@@ -9,26 +9,26 @@
     background-color: white;
   }
 
-  .nav {
-    padding: 0 4%;
+  nav {
+    padding: 0 6%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .nav p {
+  nav p {
     color: #6070ff;
     font-weight: 700;
     font-size: 18px;
   }
 
-  .headline {
-    padding: 15% 4%;
+  main {
+    padding: 15% 6%;
     background-image: url("./assets/shape-background.png");
     background-repeat: no-repeat;
   }
 
-  .header h2 {
+  .header h1 {
     color: #172b4d;
     font-size: 40px;
     font-weight: 700;
@@ -39,17 +39,18 @@
     font-weight: 400;
   }
 
-  .lets-connect h4 {
-    padding: 2% 0;
+  .lets-connect h2 {
+    font-size: 16px;
     color: #7f8cff;
     font-weight: 500;
     text-transform: uppercase;
   }
 
   .social-media-icons {
-    margin-top: -4%;
+    padding: 0;
+    list-style: none;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 20px;
   }
 }
