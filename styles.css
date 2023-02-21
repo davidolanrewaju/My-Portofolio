@@ -215,4 +215,72 @@
   .bottom-border {
     border-bottom: 1px solid #dfe1e6;
   }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 24px 0 24px;
+    background-image: url("./assets/shape-background.png");
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    border-top-left-radius: 100px;
+  }
+
+  #contact h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #contact p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 18px 0;
+    margin: 0;
+  }
+
+  form {
+    margin: 0;
+    padding: 25px 0;
+  }
+
+  input {
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 15px 16px;
+    width: 76vw;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    background: #ffffff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    padding: 15px 16px;
+    width: 76vw;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #b3bac5;
+    margin-bottom: 20px;
+  }
+
+  #submit {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: #6070ff;
+    font-weight: 500;
+    font-size: 17px;
+    width: 40vw;
+  }
 }
