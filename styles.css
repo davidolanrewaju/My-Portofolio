@@ -221,10 +221,11 @@
     flex-direction: column;
     align-items: center;
     padding: 100px 24px 0 24px;
-    background-image: url("./assets/shape-background.png");
+    background-image: url("./assets/contact\ form\ shapes-mobile.png");
     background-repeat: no-repeat;
+    background-position: right top;
     background-color: #6070ff;
-    border-top-left-radius: 100px;
+    border-top-left-radius: 80px;
   }
 
   #contact h1 {
@@ -259,6 +260,7 @@
     padding: 15px 16px;
     width: 76vw;
     margin-bottom: 20px;
+    outline: none;
   }
 
   textarea {
@@ -272,6 +274,7 @@
     font-weight: 400;
     color: #b3bac5;
     margin-bottom: 20px;
+    outline: none;
   }
 
   #submit {
