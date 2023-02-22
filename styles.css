@@ -283,4 +283,13 @@
     font-size: 17px;
     width: 40vw;
   }
+
+  #submit:active {
+    background: #2230d2;
+  }
+
+  #submit:hover {
+    background-color: #6070ff;
+    color: #fff;
+  }
 }
