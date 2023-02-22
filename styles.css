@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   body {
     margin: 0 auto;
     padding: 0;
@@ -87,7 +87,7 @@
     margin: -5px auto;
     padding: 0 auto;
     display: grid;
-    grid-template-columns: 10% 70% 10%;
+    grid-template-columns: 10% 80%;
     grid-gap: 2px;
     align-content: center;
   }
