@@ -460,7 +460,7 @@
     padding: 0;
   }
 
-  .text-body p {
+  .text-body {
     margin-top: 12px;
     font-size: 14px;
   }
@@ -536,7 +536,7 @@
   }
 
   .reverse {
-    gap: 0px;
+    gap: 0;
   }
 
   .text-container {
