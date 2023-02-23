@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 375px) {
   body {
     margin: 0 auto;
     padding: 0;
@@ -20,6 +20,10 @@
     color: #6070ff;
     font-weight: 700;
     font-size: 18px;
+  }
+
+  nav ul {
+    display: none;
   }
 
   main {
@@ -74,6 +78,10 @@
 
   .image-container img {
     border-radius: 8px;
+  }
+
+  .image-container .desktop {
+    display: none;
   }
 
   .text-container h1 {
@@ -133,7 +141,6 @@
     margin-top: 12px;
     padding: 4px 12px;
     text-decoration: none;
-    text-transform: lowercase;
     list-style: none;
     background: #ebebff;
     border-radius: 8px;
@@ -152,6 +159,18 @@
     font-weight: 500;
     font-size: 17px;
     margin: 28px 0 15px 0;
+  }
+
+  button:active {
+    background: #2230d2;
+    color: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #6070ff;
+    cursor: pointer;
+    color: #fff;
   }
 
   #about-myself {
@@ -294,5 +313,194 @@
   #submit:hover {
     background-color: #6070ff;
     color: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 115px 25px 115px;
+  }
+
+  nav img {
+    display: none;
+  }
+
+  nav ul {
+    padding: 0;
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 32px;
+  }
+
+  nav ul li {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  main {
+    margin: 0;
+    padding: 210px;
+    background-color: white;
+    background-image: url("./assets/desktop/Header\ desktop\ bg.png");
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 120px;
+  }
+
+  .header h1 {
+    margin: 0;
+    color: #172b4d;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .text-body p {
+    margin: 0;
+    color: #344563;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .lets-connect {
+    padding: 10px 0;
+  }
+
+  #works {
+    margin: 0;
+    padding: 0;
+  }
+
+  .display-card {
+    margin: 142px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 46px;
+    padding: 24px;
+  }
+
+  .image-container .mobile {
+    display: none;
+  }
+
+  .image-container .desktop {
+    display: block;
+    width: 100%;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .text-container {
+    width: 50vw;
+  }
+
+  .inline-text {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-gap: 2px;
+    align-content: center;
+  }
+
+  .inline-text h4 {
+    margin: 0;
+    color: #344563;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .inline-list {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+  }
+
+  #about {
+    background-color: white;
+    padding: 142px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 37px;
+    border-top-right-radius: 150px;
+  }
+
+  #about-myself {
+    background-image: none;
+    padding: 0;
+  }
+
+  .text-body p {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+
+  #skill-lists {
+    padding: 0;
+    background-image: none;
+  }
+
+  .skill-stacks {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+
+  .skill-stack {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    width: 122px;
+    height: 120px;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  #contact {
+    padding: 142px 450px;
+    background-image: url("./assets/desktop/contact\ form\ desktop\ background\ shapes.png");
+    border-top-left-radius: 150px;
+  }
+
+  input {
+    width: 30vw;
+    margin: 10px 0;
+    border-radius: 2px;
+  }
+
+  textarea {
+    width: 30vw;
+    margin: 10px 0;
+    border-radius: 2px;
+  }
+
+  #submit {
+    width: 10vw;
+    margin: 10px 0;
   }
 }
