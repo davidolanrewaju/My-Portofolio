@@ -482,7 +482,7 @@
   }
 
   #contact {
-    padding: 142px 450px;
+    padding: 100px 450px;
     background-image: url("./assets/desktop/contact\ form\ desktop\ background\ shapes.png");
     border-top-left-radius: 150px;
   }
@@ -495,12 +495,13 @@
 
   textarea {
     width: 30vw;
+    height: 20vh;
     margin: 10px 0;
     border-radius: 2px;
   }
 
   #submit {
     width: 10vw;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
   }
 }
