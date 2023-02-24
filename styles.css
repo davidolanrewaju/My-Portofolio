@@ -360,12 +360,10 @@
     font-size: 15px;
   }
 
-  /* @keyframes animation {
-    from {border-bottom: none;}
-    to {border-bottom: 1px solid #2230d2;}
-    0%   {border-bottom: 0px;}
-    100% {border-bottom: 1px solid #2230d2;}
-  } */
+  @keyframes animation {
+    from { border-bottom: none; }
+    to { border-bottom: 1px solid #2230d2; }
+  }
 
   nav ul li:active {
     color: #2230d2;
