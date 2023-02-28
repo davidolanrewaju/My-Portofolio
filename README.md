@@ -72,20 +72,20 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[Personal Introduction: this is to give my portfolio viewers a background information of what I do and who I am 😊]**
-<!-- - **[key_feature_2]**
-- **[key_feature_3]** -->
+- **[List of Projects done: to signify to viewers whatmy skillset and development stack are]**
+- **[Contact form: this is for future clients or collaborators to connect with me]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://dave-prog.github.io/My-Portofolio/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 

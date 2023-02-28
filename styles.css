@@ -362,10 +362,12 @@
   }
 
   @keyframes animation {
-    /*from {border-bottom: none;}
-    to {border-bottom: 1px solid #2230d2;}*/
-    0%   {width: 0;}
-    100% {width: 100%;}
+    from {
+      border-bottom: none;
+    }
+    to {
+      border-bottom: 1px solid #2230d2;
+    }
   }
 
   nav ul li:active {
@@ -456,6 +458,14 @@
 
   button {
     margin: 20px 0;
+    transition: padding 0.2s;
+  }
+
+  button:hover {
+    background-color: #6070ff;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
   }
 
   #about {
