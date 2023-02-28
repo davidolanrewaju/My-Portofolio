@@ -80,9 +80,6 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://dave-prog.github.io/My-Portofolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,9 +146,17 @@ To run tests, run the following command:
 
 👤 **Olanrewaju David**
 
-- GitHub: [@githubhandle](https://github.com/dave-prog)
-- Twitter: [@twitterhandle](https://twitter.com/ola_dayve)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/david-olanrewaju)
+- GitHub: [@dave-prog](https://github.com/dave-prog)
+- Twitter: [@ola_dayve](https://twitter.com/ola_dayve)
+- LinkedIn: [David Olanrewaju](https://www.linkedin.com/in/david-olanrewaju)
+
+👤 **Fatihah Oduwole**
+
+- GitHub: [@Jeddaa](https://github.com/Jeddaa)
+
+👤 **Naledi Dikgale**
+
+- GitHub: [@Naledi-Dikgale](https://github.com/Naledi-Dikgale)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
