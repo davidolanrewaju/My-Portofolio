@@ -358,13 +358,14 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
+    border-bottom: 1px solid #2230d2;
   }
 
   @keyframes animation {
     /*from {border-bottom: none;}
     to {border-bottom: 1px solid #2230d2;}*/
-    0%   {border-bottom: 0px;}
-    100% {border-bottom: 1px solid #2230d2;}
+    0%   {width: 0;}
+    100% {width: 100%;}
   }
 
   nav ul li:active {
