@@ -168,6 +168,12 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- VIDEO SUMMARY -->
+## 🎥 Video Summary
+>This is a video summary on the aim of this project and the challenges encountered.</br>
+Click [this link](https://www.loom.com/share/a600c92ff4cd4594a16d8c8d59bc619d) to get a view of the project
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
