@@ -42,6 +42,7 @@ After you're finished please remove all the comments and instructions!
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🎥 Video Summary](#video-summary)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -169,7 +170,7 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- VIDEO SUMMARY -->
-## 🎥 Video Summary
+## 🎥 Video Summary <a name="video-summary"></a>
 >This is a video summary on the aim of this project and the challenges encountered.</br>
 Click [this link](https://www.loom.com/share/a600c92ff4cd4594a16d8c8d59bc619d) to get a view of the project
 
