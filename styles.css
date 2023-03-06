@@ -29,8 +29,31 @@
     font-size: 18px;
   }
 
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .close {
+    display: none;
+    width: 12px;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+  }
+
   nav ul {
     display: none;
+    list-style: none;
+    background-size: cover;
+    background-color: #6060ff;
+    font-size: 34px;
+    backdrop-filter: blur(20px);
+    width: 375px;
+  }
+
+  .nav-item:visited {
+    color: white;
+    text-decoration: none;
   }
 
   main {
