@@ -17,4 +17,6 @@ hamburgerIcon.addEventListener('click', openMenu);
 closeIcon.addEventListener('click', closeMenu);
 navList.forEach((i) => {
   i.addEventListener('click', closeMenu);
+  
+ // return true;
 });
