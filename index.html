@@ -9,15 +9,31 @@
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
-        <nav>
-            <p>My Logo</p>
-            <ul class="nav-menu">
-                <li class="nav-list"><a class="nav-link" href="#works">Portfolio</a></li>
-                <li class="nav-list"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-list"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-            <img class="hamburger" src="./assets/menu-icon.png" alt="menu" />
-            <img class="close" src="./assets/icons8-close.svg" alt="close-icon">
+        <nav id="home">
+            <div class="mobile-menu-content">
+                <p class="logo"><a href="#home">My Logo</a></p>
+                <img class="hamburger" src="./assets/menu-icon.png" alt="menu" />
+            </div>
+            <div class="menu-bar">
+                <div class="menu-list">
+                    <img class="close" src="./assets/icons8-close-64.png" alt="close-icon">
+                    <ul class="nav-menu">
+                        <li class="nav-list"><a class="nav-link" href="#works">Portfolio</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="desktop-menu-container">
+                <p class="logo"><a href="#home">My Logo</a></p>
+                <div class="desktop-link">
+                    <ul>
+                        <li><a class="nav-link" href="#works">Portfolio</a></li>
+                        <li><a class="nav-link" href="#about">About</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <main>
             <div class="header">
