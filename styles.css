@@ -17,10 +17,12 @@
 
   nav {
     background-color: white;
+    background-image: none;
     padding: 0 6%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
   }
 
   nav p {
@@ -29,13 +31,67 @@
     font-size: 18px;
   }
 
-  nav ul {
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .close {
+    padding-left: 20rem;
+    width: 35px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .desktop-menu-content {
     display: none;
+  }
+
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-menu-content {
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 24px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-list {
+    padding-top: 30px;
+    display: none;
+    position: fixed;
+    backdrop-filter: blur(6px);
+    background-color: hsla(234, 100%, 69%, 0.75);
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 620px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .nav-menu .nav-list a {
+    color: hsla(0, 0%, 100%, 0.9);
   }
 
   main {
     background-color: white;
-    padding: 50px 24px 114px 24px;
+    padding: 80px 24px 114px 24px;
     background-image: url("./assets/shape-background.png");
     background-repeat: no-repeat;
     border-bottom-left-radius: 80px;
@@ -344,8 +400,29 @@
     padding: 15px 40px 25px 40px;
   }
 
-  nav img {
+  .mobile-menu-content {
     display: none;
+  }
+
+  .menu-bar {
+    display: none;
+  }
+
+  .desktop-menu-container {
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 3rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .desktop-link {
+    display: block;
   }
 
   nav ul {
@@ -392,7 +469,8 @@
   }
 
   main {
-    padding: 120px 50px;
+    margin: 0;
+    padding: 180px 50px 70px 50px;
     background-color: white;
     background-image: url("./assets/desktop/Header\ desktop\ bg.png");
     border-bottom-left-radius: 40px;
