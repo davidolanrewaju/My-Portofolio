@@ -1,57 +1,72 @@
-const seePopup = document.querySelectorAll('.see-project');
-const closeView = document.querySelector('.popup-close-icon');
-const popupCard = document.querySelector('.popup-card');
-const popupHeader = document.querySelector('.popup-h1');
-const popupImg = document.querySelector('.popup-img');
-
-const contents = [
-    {
-        title: 'Tonic',
-        image: 'assets/desktop/Snapshoot Portfolio(3).png',
-    },
-    {
-        title: 'Multi-Post Stories',
-        image:  'assets/desktop/Snapshoot Portfolio.png',
-    },
-    {
-        title: 'Facebook 360',
-        image:  'assets/desktop/Snapshoot Portfolio(1).png',
-    },
-    {
-        title: 'Uber',
-        image:  'assets/desktop/Snapshoot Portfolio(2).png',
-    }
+// Define image and header data objects
+const data = [
+  {
+    img: 'assets/desktop/Snapshoot Portfolio(3).png',
+    header: 'Tonic',
+  },
+  {
+    img: 'assets/desktop/Snapshoot Portfolio.png',
+    header: 'Multi-Post Stories',
+  },
+  {
+    img: 'assets/desktop/Snapshoot Portfolio(1).png',
+    header: 'Facebook 360',
+  },
+  {
+    img: 'assets/desktop/Snapshoot Portfolio(2).png',
+    header: 'Uber Navigation',
+  },
 ];
 
-function closePopup() {
-    popupCard.style.display = "none";
-    // Remove the image element from the popup
-    while (popupImg.firstChild) {
-        popupImg.removeChild(popupImg.firstChild);
+const smallScreenData = [
+  {
+    img: './assets/Snapshoot Portfolio.png',
+    header: 'Tonic',
+  },
+  {
+    img: './assets/Snapshoot Portfolio (1).png',
+    header: 'Multi-Post Stories',
+  },
+  {
+    img: './assets/Snapshoot Portfolio (2).png',
+    header: 'Tonic',
+  },
+  {
+    img: './assets/Snapshoot Portfolio (3).png',
+    header: 'Multi-Post Stories',
+  },
+];
+
+// Get elements
+const popupCard = document.querySelector('.popup-card');
+const displayCards = document.querySelectorAll('.display-card');
+const popupHeader = document.querySelector('.popup-h1');
+const popupImg = document.querySelector('.popup-img-desktop');
+
+// Loop through display cards and add event listeners
+for (let i = 0; i < displayCards.length; i += 1) {
+  displayCards[i].addEventListener('click', () => {
+    // Get image and header data from corresponding object
+    let imgSrc; let
+      headerText;
+    if (window.innerWidth <= 425) {
+      imgSrc = smallScreenData[i].img;
+      headerText = smallScreenData[i].header;
+    } else {
+      imgSrc = data[i].img;
+      headerText = data[i].header;
     }
+
+    // Update popup card content
+    popupHeader.textContent = headerText;
+    popupImg.src = imgSrc;
+
+    // Show popup card
+    popupCard.style.display = 'block';
+  });
 }
 
-closeView.addEventListener("click", closePopup);
-
-for (let i = 0; i < seePopup.length; i++) {
-    seePopup[i].addEventListener('click', (event) => {
-      const index = parseInt(event.target.dataset.index);
-      const content = contents[index];
-      if (content && content.title) {
-        popupHeader.innerHTML = content.title;
-      }
-      if (content && content.image) {
-        // Remove the old image element from the popup
-        while (popupImg.firstChild) {
-          popupImg.removeChild(popupImg.firstChild);
-        }
-        // Add the new image element to the popup
-        const image = document.createElement('img');
-        image.src = content.image;
-        popupImg.appendChild(image);
-      }
-      popupCard.style.display = 'block';
-    });
-    seePopup[i].dataset.index = i;
-  }
-// return popup();
+// Close popup card when close button is clicked
+document.querySelector('.close-popup').addEventListener('click', () => {
+  popupCard.style.display = 'none';
+});
