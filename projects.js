@@ -102,7 +102,7 @@ project.forEach((element, i) => {
     </div>
     `;
 
-    // Add reverse class to last element
+  // Add reverse class to last element
   if (i === project.length - 1) {
     displayCard.classList.add('reverse');
   }
