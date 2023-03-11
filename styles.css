@@ -66,7 +66,7 @@
   .menu-list {
     padding-top: 30px;
     display: none;
-    position: fixed;
+    position: sticky;
     backdrop-filter: blur(6px);
     background-color: hsla(234, 100%, 69%, 0.75);
     margin: 0;
@@ -131,6 +131,119 @@
     background-image: none;
   }
 
+  .popup-card {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    backdrop-filter: blur(6px);
+    padding: 40px;
+  }
+
+  .popup-background {
+    position: relative;
+    padding-inline: 24px;
+    padding-block: 24px;
+    background: white;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+  }
+
+  .popup-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .popup-header-texts h1 {
+    margin: 0;
+  }
+
+  .inline-text {
+    margin: -5px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .popup-header-texts .inline-text {
+    margin: 0;
+  }
+
+  .close-popup {
+    width: 12px;
+    cursor: pointer;
+  }
+
+  .popup-img-desktop {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+
+  .stack {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .popup-sidebar .stack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ebecf0;
+    padding-bottom: 20px;
+  }
+
+  .popup-article p {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .popup-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .popup-button {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px auto;
+    width: 142px;
+    height: 40px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .popup-button p {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #396df2;
+  }
+
+  .popup-button img {
+    width: 16px;
+  }
+
   .display-card {
     display: flex;
     flex-direction: column;
@@ -158,15 +271,6 @@
     font-weight: 700;
   }
 
-  .inline-text {
-    margin: -5px auto;
-    padding: 0 auto;
-    display: grid;
-    grid-template-columns: 15% 75%;
-    grid-gap: 2px;
-    align-content: center;
-  }
-
   .inline-text h4 {
     margin: 0;
     color: #344563;
@@ -176,6 +280,7 @@
   }
 
   .inline-list {
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -197,16 +302,6 @@
     font-size: 15px;
   }
 
-  .stack {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    gap: 8px;
-  }
-
   .stack li {
     margin-top: 12px;
     padding: 4px 12px;
@@ -219,7 +314,7 @@
     color: #6070ff;
   }
 
-  button {
+  .button {
     font-family: Poppins, sans-serif;
     background-color: transparent;
     padding: 12px;
@@ -231,13 +326,13 @@
     margin: 28px 0 15px 0;
   }
 
-  button:active {
+  .button:active {
     background: #2230d2;
     color: white;
     cursor: pointer;
   }
 
-  button:hover {
+  .button:hover {
     background-color: #6070ff;
     color: white;
     cursor: pointer;
@@ -501,6 +596,17 @@
     padding: 24px;
   }
 
+  .popup-card {
+    padding: 50px;
+    border-radius: 16px;
+  }
+
+  .popup-content {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    column-gap: 5%;
+  }
+
   .mobile {
     display: none;
   }
@@ -527,8 +633,7 @@
 
   .inline-text {
     margin-top: 10px;
-    grid-template-columns: 10% 90%;
-    grid-gap: 20px;
+    grid-template-columns: 10% 50%;
   }
 
   .inline-list {
@@ -539,12 +644,12 @@
     align-items: center;
   }
 
-  button {
+  .button {
     margin: 20px 0;
     transition: padding 0.2s;
   }
 
-  button:hover {
+  .button:hover {
     background-color: #6070ff;
     color: white;
     cursor: pointer;
@@ -640,6 +745,23 @@
     gap: 50px;
   }
 
+  .popup-background {
+    width: 100%;
+    max-width: 50vw;
+    height: auto;
+    transform: translateX(40%);
+  }
+
+  .popup-content {
+    display: grid;
+    grid-template-columns: 55% 40%;
+    column-gap: 5%;
+  }
+
+  .popup-article p {
+    font-size: 13px;
+  }
+
   .reverse {
     gap: 0;
   }
@@ -658,7 +780,8 @@
   }
 
   .inline-text {
-    grid-gap: 2px;
+    margin-top: 10px;
+    grid-template-columns: 20% 60%;
   }
 
   #about {
