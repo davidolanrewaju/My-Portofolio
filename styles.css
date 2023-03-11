@@ -747,7 +747,6 @@
 
   .popup-background {
     width: 100%;
-    height: 100%;
     max-width: 50vw;
     height: auto;
     transform: translateX(40%);
