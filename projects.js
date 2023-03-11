@@ -45,6 +45,12 @@ project.forEach((element, i) => {
   const projects = document.querySelector('#works');
   const displayCard = document.createElement('div');
   displayCard.classList.add('display-card');
+
+  // Add reverse class to second element
+  if (i === 1) {
+    displayCard.classList.add('reverse');
+  }
+
   displayCard.innerHTML = `
     <div class="image-container">
         <img src="${
@@ -95,6 +101,11 @@ project.forEach((element, i) => {
 }">See Project</button>
     </div>
     `;
+
+    // Add reverse class to last element
+  if (i === project.length - 1) {
+    displayCard.classList.add('reverse');
+  }
 
   projects.appendChild(displayCard);
 });
