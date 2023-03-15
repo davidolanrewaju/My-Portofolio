@@ -146,18 +146,19 @@ To run tests, run the following command:
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Olanrewaju David**
-
 - GitHub: [@dave-prog](https://github.com/dave-prog)
 - Twitter: [@ola_dayve](https://twitter.com/ola_dayve)
 - LinkedIn: [David Olanrewaju](https://www.linkedin.com/in/david-olanrewaju)
 
 👤 **Fatihah Oduwole**
-
 - GitHub: [@Jeddaa](https://github.com/Jeddaa)
 
 👤 **Naledi Dikgale**
-
 - GitHub: [@Naledi-Dikgale](https://github.com/Naledi-Dikgale)
+
+👤 **Joy Phoebe**
+- GitHub: [@Naledi-Dikgale](https://github.com/joyapisi)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
